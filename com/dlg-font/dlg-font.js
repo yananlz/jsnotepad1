@@ -1,5 +1,4 @@
 let $dlgFont = new Dialog('font');
-
 ((dlg) => {
   let content = `
     <div class="font-family"><p>字体(F):</p></div>
@@ -106,6 +105,7 @@ let $dlgFont = new Dialog('font');
     $dlg.click((e) => e.stopPropagation());
   };
 })($dlgFont);
+
 
 
 
