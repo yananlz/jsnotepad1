@@ -1,4 +1,3 @@
-
 let $dlgFont = new Dialog('font');
 
 ((dlg) => {
@@ -107,4 +106,6 @@ let $dlgFont = new Dialog('font');
     $dlg.click((e) => e.stopPropagation());
   };
 })($dlgFont);
+
+
 
